@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ Recipez</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <ul>
+                <li><a class="nav-item" href="list.html">Recipes</a></li>
+                <li><a class="nav-item" href="about.html">About Us</a></li>
+                <li><a class="header-logo-link" href="index.html"><img class="header-logo-img" src="logo.png" alt="EZ Recipez logo"></a></li>
+                <li><a class="nav-item" href="contact.html">Contact</a></li>
+                <li><a class="nav-item" href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="list-page">
+        <section class="filters">
+            <form class="filter-form">
+                <p><label for="search">Search:</label></p>
+                <p></p><input id="filter-search" type="text"></p>
+                <p><label for="categories">Categories:</label></p>
+                <p><input id="category-chicken" type="checkbox"><label for="category-chicken">Chicken</label></p>
+                <p><input id="category-beef" type="checkbox"><label for="category-beef">Beef</label></p>
+                <p><input id="category-pork" type="checkbox"><label for="category-pork">Pork</label></p>
+                <p><input id="category-sea" type="checkbox"><label for="category-sea">Seafood</label></p>
+                <p><input id="category-pastry" type="checkbox"><label for="category-pastry">Pastry</label></p>
+                <p><input id="category-dessert" type="checkbox"><label for="category-dessert">Dessert</label></p>
+                <p><input id="category-appetizer" type="checkbox"><label for="category-appetizer">Appetizer</label></p>
+
+                <p></p><label for="order">Order By:</label></p>
+                <p></p><select id="order-select" name="order-select">
+                    <option value="alphabet">Alphabetical</option>
+                    <option value="date">Date</option>
+                    <option value="rating">Rating</option>
+                    <option value="prep">Prep Time</option>
+                </select></p>
+                <p></p><select id="asc-desc" name="asc-desc">
+                    <option value="asc">Ascending</option>
+                    <option value="asc">Descending</option>
+                </select></p>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section class="filter-results">
+            <a class="recipe-card-link" href="recipe.html">
+                <section class="recipe-card">
+                    <img class="recipe-card-img" src="waffles.jpg" alt="Placeholder image">
+                    <h3 class="recipe-card-title">Recipe Title</h3>
+                    <p class="recipe-card-date">09-25-25</p>
+                    <p class="recipe-card-desc">A tasty treat for you and your friends to eat!</p>
+                </section>
+            </a>
+            <a class="recipe-card-link" href="recipe.html">
+                <section class="recipe-card">
+                    <img class="recipe-card-img" src="waffles.jpg" alt="Placeholder image">
+                    <h3 class="recipe-card-title">Recipe Title</h3>
+                    <p class="recipe-card-date">09-25-25</p>
+                    <p class="recipe-card-desc">A tasty treat for you and your friends to eat!</p>
+                </section>
+            </a>
+            <a class="recipe-card-link" href="recipe.html">
+                <section class="recipe-card">
+                    <img class="recipe-card-img" src="waffles.jpg" alt="Placeholder image">
+                    <h3 class="recipe-card-title">Recipe Title</h3>
+                    <p class="recipe-card-date">09-25-25</p>
+                    <p class="recipe-card-desc">A tasty treat for you and your friends to eat!</p>
+                </section>
+            </a>
+            <a class="recipe-card-link" href="recipe.html">
+                <section class="recipe-card">
+                    <img class="recipe-card-img" src="waffles.jpg" alt="Placeholder image">
+                    <h3 class="recipe-card-title">Recipe Title</h3>
+                    <p class="recipe-card-date">09-25-25</p>
+                    <p class="recipe-card-desc">A tasty treat for you and your friends to eat!</p>
+                </section>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <a ahref="index.html"><img class="footer-logo" src="logo.png" alt="EZ Recipez logo"></a>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="list.html">Recipes</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+        <section class="footer-legal">
+            <ul class="footer-legal-list">
+                <li><a href="privacy-policy">Privacy Policy</a></li>
+                <li><a href="terms-of-use">Terms of Use</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </section>
+        <section class="footer-contact">
+            <p>Address: 123 Address Street</p>
+            <p>Number: 123-456-7890</p>
+            <p>&copy 2025 Logan MacConnell</p>
+        </section>
+    </footer>
+    <div class="credits">
+            <p>This website created as a project in Angular. Credit belongs to the respective owners.</p>
+    </div>
+</body>
+</html>

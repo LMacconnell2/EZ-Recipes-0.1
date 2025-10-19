@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <ul>
+                <li><a class="nav-item" href="/search">Recipes</a></li>
+                <li><a class="nav-item" href="/about">About Us</a></li>
+                <li><a class="header-logo-link" href="/"><img class="header-logo-img" src="/images/logo.png" alt="EZ Recipez logo"></a></li>
+                <li><a class="nav-item" href="/contact">Contact</a></li>
+                <li><a class="nav-item" href="/reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="dashboardTitle">Dashboard: </h1>
+    <a href="/reset-db">Reset DB Recipe Data</a>
+    <main class="dashboard">
+        <section class="recipeFormSection">
+            <h2>Add a Recipe</h2>
+            <form id="recipeForm" action="/new-recipe" method="POST">
+            <p><label for="id">ID:</label></p>
+            <input type="text" id="id" name="id" required><br>
+
+            <p><label for="title">Title:</label></p>
+            <input type="text" id="title" name="title" required><br>
+
+            <p><label for="description">Description:</label></p>
+            <textarea id="description" name="description"></textarea><br>
+
+            <p><label for="image">Image URL:</label></p>
+            <input type="text" id="image" name="image"><br>
+
+            <p><label for="upload_date">Upload Date:</label></p>
+            <input type="date" id="upload_date" name="upload_date"><br>
+
+            <p><label for="categories">Categories (comma-separated):</label></p>
+            <input type="text" id="categories" name="categories"><br>
+
+            <p><label for="ingredients">Ingredients (comma-separated):</label></p>
+            <input type="text" id="ingredients" name="ingredients"><br>
+
+            <p><label for="instructions">Instructions (comma-separated):</label></p>
+            <input type="text" id="instructions" name="instructions"><br>
+
+            <p><button type="submit">Submit Recipe</button></p>
+            </form>
+        </section>
+        <section class="userFormSection" action="/add-user" method="POST">
+            <h2>Create User</h2>
+            <form id="userForm">
+            <p><label for="fname">First Name:</label></p>
+            <input type="text" id="fname" name="fname" required><br>
+
+            <p><label for="lname">Last Name:</label></p>
+            <input type="text" id="lname" name="lname" required><br>
+
+            <p><label for="email">Email:</label></p>
+            <input type="email" id="email" name="email" required><br>
+
+            <p><label for="password">Password:</label></p>
+            <input type="password" id="password" name="password" required><br>
+
+            <p><button type="submit">Create User</button></p>
+            </form>
+        </section>
+    </main>
+       <footer>
+        <a ahref="/"><img class="footer-logo" src="/images/logo.png" alt="EZ Recipez logo"></a>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="/list">Recipes</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/reviews">Reviews</a></li>
+            </ul>
+        </nav>
+        <section class="footer-legal">
+            <ul class="footer-legal-list">
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/terms-of-use">Terms of Use</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </section>
+        <section class="footer-contact">
+            <p>Address: 123 Address Street</p>
+            <p>Number: 123-456-7890</p>
+            <p>&copy 2025 Logan MacConnell</p>
+        </section>
+    </footer>
+    <div class="credits">
+            <p>This website created as a demonstration of typescript.</p>
+    </div>
+</body>
+</html>

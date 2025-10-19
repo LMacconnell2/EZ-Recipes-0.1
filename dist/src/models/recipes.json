@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Spaghetti Carbonara",
+    "description": "A creamy, comforting Italian pasta dish with pancetta, egg, and Parmesan.",
+    "image": "https://example.com/images/spaghetti-carbonara.jpg",
+    "upload_date": "2025-09-20",
+    "categories": ["Italian", "Pasta", "Dinner"],
+    "ingredients": [
+      "12 oz spaghetti",
+      "4 oz pancetta",
+      "2 large eggs",
+      "1/2 cup grated Parmesan",
+      "Black pepper",
+      "Salt"
+    ],
+    "instructions": [
+      "Cook spaghetti until al dente.",
+      "Fry pancetta until crispy.",
+      "Whisk eggs with Parmesan and pepper.",
+      "Drain pasta and quickly toss with pancetta.",
+      "Stir in egg mixture off heat to create a creamy sauce.",
+      "Serve with extra Parmesan on top."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "description": "Tender chicken simmered in a rich, spiced tomato cream sauce.",
+    "image": "https://example.com/images/chicken-tikka-masala.jpg",
+    "upload_date": "2025-09-22",
+    "categories": ["Indian", "Chicken", "Curry"],
+    "ingredients": [
+      "1 lb chicken breast, cubed",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice mix",
+      "1 onion, chopped",
+      "2 garlic cloves",
+      "1 tbsp ginger",
+      "1 can tomato puree",
+      "1/2 cup cream"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and spices for 1 hour.",
+      "Grill or pan-sear chicken until browned.",
+      "Sauté onion, garlic, and ginger until soft.",
+      "Add tomato puree and simmer with spices.",
+      "Stir in cream, then add chicken and cook until tender.",
+      "Serve hot with naan or rice."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Blueberry Pancakes",
+    "description": "Fluffy pancakes bursting with fresh blueberries.",
+    "image": "https://example.com/images/blueberry-pancakes.jpg",
+    "upload_date": "2025-09-23",
+    "categories": ["Breakfast", "Sweet", "American"],
+    "ingredients": [
+      "1 cup flour",
+      "2 tbsp sugar",
+      "1 tsp baking powder",
+      "1/2 tsp salt",
+      "1 cup milk",
+      "1 egg",
+      "2 tbsp butter, melted",
+      "1/2 cup blueberries"
+    ],
+    "instructions": [
+      "Mix dry ingredients in a bowl.",
+      "Whisk milk, egg, and melted butter together.",
+      "Combine wet and dry ingredients until just mixed.",
+      "Fold in blueberries.",
+      "Cook on a greased skillet until bubbles form, then flip.",
+      "Serve warm with maple syrup."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Greek Salad",
+    "description": "A refreshing salad with cucumbers, tomatoes, feta, and olives.",
+    "image": "https://example.com/images/greek-salad.jpg",
+    "upload_date": "2025-09-24",
+    "categories": ["Salad", "Vegetarian", "Greek"],
+    "ingredients": [
+      "1 cucumber, chopped",
+      "2 tomatoes, diced",
+      "1/2 red onion, sliced",
+      "1 green bell pepper, chopped",
+      "1/2 cup Kalamata olives",
+      "1/2 cup feta cheese",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "1 tsp oregano"
+    ],
+    "instructions": [
+      "Chop cucumber, tomatoes, onion, and bell pepper.",
+      "Add olives and crumbled feta.",
+      "Whisk olive oil, lemon juice, oregano, and salt.",
+      "Pour dressing over vegetables and toss gently.",
+      "Serve chilled."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Beef Tacos",
+    "description": "Crispy tacos filled with seasoned ground beef and toppings.",
+    "image": "https://example.com/images/beef-tacos.jpg",
+    "upload_date": "2025-09-25",
+    "categories": ["Mexican", "Beef", "Dinner"],
+    "ingredients": [
+      "1 lb ground beef",
+      "2 tbsp taco seasoning",
+      "8 taco shells",
+      "1 cup shredded lettuce",
+      "1/2 cup shredded cheese",
+      "1/2 cup salsa",
+      "1/4 cup sour cream"
+    ],
+    "instructions": [
+      "Cook ground beef in a skillet until browned.",
+      "Stir in taco seasoning and a splash of water.",
+      "Spoon beef into taco shells.",
+      "Top with lettuce, cheese, salsa, and sour cream.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Vegetable Stir-Fry",
+    "description": "A quick and colorful stir-fry with fresh vegetables and soy sauce.",
+    "image": "https://example.com/images/vegetable-stirfry.jpg",
+    "upload_date": "2025-09-26",
+    "categories": ["Asian", "Vegetarian", "Quick Meals"],
+    "ingredients": [
+      "2 tbsp vegetable oil",
+      "2 garlic cloves, minced",
+      "1 tbsp ginger, grated",
+      "1 cup broccoli florets",
+      "1 carrot, sliced",
+      "1 bell pepper, sliced",
+      "2 tbsp soy sauce",
+      "1 tsp sesame oil"
+    ],
+    "instructions": [
+      "Heat oil in a wok over high heat.",
+      "Add garlic and ginger, stir-fry for 30 seconds.",
+      "Add broccoli, carrot, and bell pepper.",
+      "Stir-fry until vegetables are tender-crisp.",
+      "Add soy sauce and sesame oil, toss to coat.",
+      "Serve over rice or noodles."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Margherita Pizza",
+    "description": "Classic pizza topped with tomato sauce, mozzarella, and fresh basil.",
+    "image": "https://example.com/images/margherita-pizza.jpg",
+    "upload_date": "2025-09-27",
+    "categories": ["Italian", "Pizza", "Vegetarian"],
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "8 oz fresh mozzarella",
+      "Fresh basil leaves",
+      "Olive oil"
+    ],
+    "instructions": [
+      "Preheat oven to 475°F (245°C).",
+      "Roll out pizza dough onto a baking sheet.",
+      "Spread tomato sauce evenly.",
+      "Top with mozzarella slices and basil leaves.",
+      "Drizzle with olive oil.",
+      "Bake until crust is golden and cheese is bubbly."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "French Onion Soup",
+    "description": "Rich caramelized onion soup topped with bread and melted cheese.",
+    "image": "https://example.com/images/french-onion-soup.jpg",
+    "upload_date": "2025-09-28",
+    "categories": ["French", "Soup", "Comfort Food"],
+    "ingredients": [
+      "4 large onions, thinly sliced",
+      "3 tbsp butter",
+      "4 cups beef broth",
+      "1/2 cup sherry (optional)",
+      "1 tsp thyme",
+      "4 slices French bread",
+      "1 cup Gruyère cheese"
+    ],
+    "instructions": [
+      "Caramelize onions in butter until golden brown.",
+      "Add broth, thyme, and sherry; simmer for 20 minutes.",
+      "Ladle soup into oven-safe bowls.",
+      "Top with bread slices and Gruyère cheese.",
+      "Broil until cheese is melted and bubbly.",
+      "Serve hot."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Chocolate Chip Cookies",
+    "description": "Chewy, golden-brown cookies packed with chocolate chips.",
+    "image": "https://example.com/images/chocolate-chip-cookies.jpg",
+    "upload_date": "2025-09-29",
+    "categories": ["Dessert", "Baking", "Sweet"],
+    "ingredients": [
+      "1 cup butter, softened",
+      "1 cup sugar",
+      "2 eggs",
+      "2 tsp vanilla extract",
+      "2 1/4 cups flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "2 cups chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Cream butter and sugar until fluffy.",
+      "Add eggs and vanilla, mix well.",
+      "Stir in flour, baking soda, and salt.",
+      "Fold in chocolate chips.",
+      "Scoop dough onto baking sheet and bake 10-12 minutes."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Caesar Salad",
+    "description": "Crisp romaine lettuce with creamy Caesar dressing and croutons.",
+    "image": "https://example.com/images/caesar-salad.jpg",
+    "upload_date": "2025-09-30",
+    "categories": ["Salad", "Appetizer", "Classic"],
+    "ingredients": [
+      "1 head romaine lettuce, chopped",
+      "1/2 cup Caesar dressing",
+      "1/4 cup Parmesan cheese",
+      "1 cup croutons",
+      "Grilled chicken (optional)"
+    ],
+    "instructions": [
+      "Chop romaine lettuce into bite-sized pieces.",
+      "Toss lettuce with Caesar dressing.",
+      "Add Parmesan cheese and croutons.",
+      "Top with grilled chicken if desired.",
+      "Serve immediately."
+    ]
+  }
+]
