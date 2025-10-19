@@ -7,7 +7,7 @@ export async function importRecipes() {
   try {
     await connectDB();
 
-    const filePath = path.join(__dirname, "../models/recipes.json"); // make sure recipes.json is in the same folder
+    const filePath = path.join(__dirname, "../models/recipes.json");
     const data = fs.readFileSync(filePath, "utf-8");
     const recipes = JSON.parse(data);
 
